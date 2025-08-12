@@ -2,15 +2,24 @@ import Buttons from "./Buttons";
 export default function HeaderNav(){
   return (
     <div>
-      <ul className="flex flex-wrap gap-15 w-full uppercase text-center justify-center items-center-safe">
+      <div className="flex flex-wrap gap-20 w-full uppercase  justify-center items-center-safe">
+        <ul className=" flex flex-wrap gap-20">
         <li>About Me</li>
         <li>Projects</li>
         <li>Certificates</li>
         <li>Contacts</li>
-        <li>
+        </ul>
+        <div>
+          <ul>
+           <li>
           <Buttons buttonsName="Email Me"/>
           </li>
-      </ul>
+          </ul>
+        </div>
+      </div>
+        
+       
+      
     </div>
   );
 }
