@@ -8,6 +8,7 @@ export default function HeaderNav(){
         <li>Projects</li>
         <li>Certificates</li>
         <li>Contacts</li>
+        <li>Language & Framework</li>
         </ul>
         <div>
           <ul>
