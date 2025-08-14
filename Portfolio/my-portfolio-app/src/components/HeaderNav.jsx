@@ -4,11 +4,11 @@ export default function HeaderNav(){
     <div>
       <div className="flex flex-wrap gap-20 w-full uppercase  justify-center items-center-safe">
         <ul className=" flex flex-wrap gap-20">
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Certificates</li>
-        <li>Contacts</li>
-        <li>Language & Framework</li>
+        <li id="aboutMe">About Me</li>
+        <li id="projects">Projects</li>
+        <li id="certificates">Certificates</li>
+        <li id="contacts">Contacts</li>
+        <li id="languageFramework">Language & Framework</li>
         </ul>
         <div>
           <ul>
