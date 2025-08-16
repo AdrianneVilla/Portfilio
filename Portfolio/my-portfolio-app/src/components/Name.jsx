@@ -1,6 +1,7 @@
 import React from "react";
 import Buttons from "./Buttons";
 import BorderButtons from "./BorderButtons";
+
 export default function Name(){
   return (
   <>
