@@ -5,7 +5,7 @@ import BorderButtons from "./BorderButtons";
 export default function Name(){
   return (
   <>
-    <div className="w-50% h-full content-center p-10 pl-30">
+    <div className="w-fit h-fit mt-100 content-center p-10 pl-30">
       <div className="flex flex-wrap h-fit justify-left">
         <span className="text-2xl font-bold">I'M
           <span className="font-bold p-4 text-5xl text-yellow-500 uppercase">

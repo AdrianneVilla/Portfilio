@@ -2,9 +2,9 @@ import Buttons from "./Buttons";
 export default function HeaderNav(){
   return (
     <div>
-      <div className="flex flex-wrap gap-20 w-full uppercase  justify-center items-center-safe">
+      <div className="flex flex-wrap gap-20 w-full uppercase sticky  justify-center items-center-safe">
         <ul className=" flex flex-wrap gap-20">
-        <li id="aboutMe">About Me</li>
+        <li id="aboutMe"><a href="AboutMe">About Me</a></li>
         <li id="projects">Projects</li>
         <li id="certificates">Certificates</li>
         <li id="contacts">Contacts</li>
