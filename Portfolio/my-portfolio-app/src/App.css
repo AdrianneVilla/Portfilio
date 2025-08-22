@@ -1,9 +1,7 @@
 @import "tailwindcss";
 
 #root {
-  margin: 0px;
   width: 100%;
-  padding: 2rem 0rem;
   text-align: center;
 }
 
