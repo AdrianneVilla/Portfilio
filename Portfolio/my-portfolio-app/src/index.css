@@ -2,3 +2,7 @@
   background-color: #242423;
   font-family: 'Poppins';
 }
+
+html{
+  scroll-behavior: smooth;
+}

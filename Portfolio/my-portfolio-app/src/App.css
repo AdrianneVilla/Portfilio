@@ -13,7 +13,6 @@
 
 @theme{
   --animate-typewriter: typewriter 2s steps(33) forwards;
-  --animate-backtypewriter: backtyping 2s steps(33) backwards;
   --animate-caret: typewriter 2s steps(33) forwards, blink 1s steps(33) infinite 2s;
 }
   @keyframes typewriter {
@@ -39,4 +38,5 @@
       opacity: 0;
     }
   }
+
 
