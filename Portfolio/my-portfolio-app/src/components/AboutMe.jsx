@@ -1,6 +1,6 @@
 export default function AboutMe(){
   return (
-    <div id="AboutMe" className="h-225 text-[#242423] mt-20 bg-white w-full">
+    <div id="AboutMe" className="h-225 text-[#242423] mt-20 bg-stone-500 w-full">
       <h1 className="font-bold text-[#242423]  pl-20 pt-25 text-left text-4xl ">ABOUT ME</h1>
       <hr className="w-60 ml-20 border-2" />
 

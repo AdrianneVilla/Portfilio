@@ -1,9 +1,10 @@
 import Buttons from "./Buttons";
-
+import Logo from '../assets/Logo.png'
 export default function HeaderNav(){
   return (
     <div className="p-0 m-0">
       <div className="flex flex-wrap gap-20 w-full uppercase sticky h-full  justify-center items-center-safe">
+        <img className="h-30 pr-15" src={Logo} alt="AV" />
         <ul className=" flex flex-wrap gap-20">
           <NavItems href="#AboutMe" label= "About Me"/>
           <NavItems href="Projects" label= "Projects"/>
@@ -11,8 +12,6 @@ export default function HeaderNav(){
           <NavItems href="#Contacts" label= "Contacts"/>
           <NavItems href="#FrameworksLanguage" label= "Frameworks and Languages"/>
           <NavItems href="#Feedback" label= "Feedback"/>
-
-
         </ul>
         <div>
           <ul>
@@ -22,9 +21,6 @@ export default function HeaderNav(){
           </ul>
         </div>
       </div>
-        
-       
-      
     </div>
   );
   
